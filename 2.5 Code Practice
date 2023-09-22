@@ -1,0 +1,8 @@
+import random
+
+a = random.randint(1,5)
+b = random.randint(1,5)
+
+answer = a * b
+
+print (str(a) + " x " + str(b) + " = " + str(answer)) 
