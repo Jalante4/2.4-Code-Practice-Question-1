@@ -1,0 +1,17 @@
+A = float(input("Enter side A: "))
+
+B = float(input("Enter side B: "))
+
+C = float(input("Enter side C: "))
+
+D = float(input("Enter side D: "))
+
+E = float(input("Enter side E: "))
+
+rect1 = (A * B)
+
+rect2 = (D - B - E) * (A - C)
+
+tri = (A - C) * E * 0.5
+
+print("Room Area: " + str(rect1+ rect2+tri))
