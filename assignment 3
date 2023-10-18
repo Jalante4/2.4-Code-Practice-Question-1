@@ -1,0 +1,53 @@
+import random 
+name = input("What is your first name? ")
+shoes = input("What shoes do you like? ")
+num = random.randint(1,4)
+if num == 1:
+    print ("Nice style!")
+elif num == 2:
+    print("Wow, those are cool!")
+elif num == 3 :
+    print("You have W drip")
+else: ("lmao u got no drip")
+    
+
+age = input("How old are you? ")
+
+num = random.randint(1,4)
+if num == 1:
+    print (age + " is a great age")
+    print("I think i understand your style")
+elif num == 2:
+    print("Wow you're old")
+    print("You should get a check up")
+elif num == 3 :
+    print("You're so young")
+    print("Live your life to the fullest")
+else:
+    print("hush")
+    
+
+shirt = input(name + " ,What is your favorite type of tops? ")
+num = random.randint(1,4)
+if num == 1:
+    print ("Nice style!")
+elif num == 2:
+    print("Wow, those are cool!")
+elif num == 3 :
+    print("You have W drip")
+else: print("find god")
+print("Your litty gang")
+print("We gon be gang fr")
+
+pants = input("What about your favorite pants?")
+num = random.randint(1,4)
+if num == 1:
+    print ("Wow i like " + pants + " too")
+elif num == 2:
+    print("Drippy gang")
+elif num == 3 :
+    print("you cant go wrong wit those")
+else: print("Your so trash")
+
+finalq = input("Anything else u want to add?")
+print("See you later gang, i like your style")
